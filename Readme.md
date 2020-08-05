@@ -1,10 +1,8 @@
-# aadhaar-validator
-
-[![NPM Downloads][downloads-image]][downloads-url]
+# @make-sense/adhaar-validator
 
 It is typescript enchanced version of Adhaar-validator library
 
-This library checks whether a given number is valid Aadhaar number or Aadhaar Virtual ID, following the structure which is given by Government of India.
+This library checks whether a given number is valid Aadhaar number or Adhaar Virtual ID, following the structure which is given by Government of India.
 
 This library can only be used to validate the format of adhaar card number. It strictly doesnt check for authenticity of Adhaar cards.
 
