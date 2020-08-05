@@ -45,4 +45,4 @@ isValidVID("2345234523436");
 ```
 
 [downloads-image]: https://img.shields.io/npm/dm/aadhaar-validator.svg
-[downloads-url]: https://www.npmjs.com/package/aadhaar-validator
+[downloads-url]: https://www.npmjs.com/package/@make-sense/adhaar-validator
