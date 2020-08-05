@@ -1,0 +1,24 @@
+{
+  "name": "@make-sense/adhaar-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc",
+    "git": "git add . && git commit -am 'publish' && git push",
+    "pub": "npm run git && npm run build && npm version patch && npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^3.0.1",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {}
+}
